@@ -2,7 +2,7 @@ import axios from 'axios';
 import store from '../app/store';
 
 const axiosInstance = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://task-backend-gukb.onrender.com/api',
 });
 
 axiosInstance.interceptors.request.use(

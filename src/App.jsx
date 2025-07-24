@@ -4,7 +4,8 @@ import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
 import ProductListPage from './pages/ProductListPage';
 import ProductFormPage from './pages/ProductFormPage';
-import HomePage from './pages/Homepage';
+import HomePage from './pages/Home';
+
 
 function App() {
   return (
